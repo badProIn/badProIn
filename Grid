@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
+<div class="container"> <--container called in css for called back as grid-->
     <div>
         <img src="images/img1.jpg" class="img">
-        <div class="main">
+        <div class="main"><-- main Called in css for 2nd grid which are make details-->
             <div>
                 <img src="images/channel.png">
             </div>
