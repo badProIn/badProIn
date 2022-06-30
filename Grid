@@ -1,0 +1,43 @@
+<!-- Grid stracture-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div>
+        <img src="images/img1.jpg" class="img">
+        <div class="main">
+            <div>
+                <img src="images/channel.png">
+            </div>
+            <div>
+                <p>This Is The Video Title</p>
+            </div>
+        </div>
+    </div>
+</div>
+   
+</body>
+</html>
+<!-- Css Grid StacTure-->
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img{
+    width: 100%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
